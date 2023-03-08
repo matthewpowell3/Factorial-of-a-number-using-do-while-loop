@@ -6,5 +6,7 @@ var i = 1;
 var n = 5;
 var f = 1;
 do {
-   f=f*i;
-}
+  f = f * i;
+  i++;
+} while (i <= n);
+document.write('The ');
