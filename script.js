@@ -9,4 +9,4 @@ do {
   f = f * i;
   i++;
 } while (i <= n);
-document.write('The ');
+document.write('The factorial of' + n + '<h1>' + f + '</h1>');
